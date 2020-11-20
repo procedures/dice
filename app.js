@@ -71,7 +71,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
     if(isNewGame){
         scores[activePlayer] +=roundScore;
     document.getElementById('score-'+activePlayer).textContent=scores[activePlayer];
-    if(scores[activePlayer]>=15){
+    if(scores[activePlayer]>=100){
         isNewGame=false;
         
             document.getElementById('name-'+activePlayer).textContent="WINNER!!!";
